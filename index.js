@@ -11,5 +11,10 @@ function incrementF() {
 
 // 1. Create a function, save(), which logs out the count when it's called
 function save() {
-    console.log(count)
+    let countSv = count + " - "
+    let saveEl = document.getElementById("save-el")
+    saveEl.textContent += countSv
+    document.getElementById("count-btn").innerText = 0
+    count = 0
+
 }
