@@ -1,0 +1,29 @@
+*{
+    margin: auto;
+    padding: auto;
+   
+    
+}
+
+
+#id-btn {
+
+ background-color: blue;
+ height: 250px;
+ width: 300px;
+ padding: 50px;
+ margin: auto;
+ align-content: center;
+
+}
+button {
+ padding: 5px;
+ margin: 10px;
+ width: 200px;
+
+}
+  
+
+h1 { 
+    align-content: center;
+}

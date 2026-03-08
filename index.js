@@ -1,20 +1,11 @@
-let count = 0
-
-// let countEl = document.getElementById("count-btn")
+let count = 0;
 function incrementF() {
     count += 1;
-    let countEl = document.getElementById("count-btn")
-    countEl.innerText = count
-    // countEl.innerHTML = count
-
+    document.getElementById("btn btn-increment").textContent = count;
 }
 
-// 1. Create a function, save(), which logs out the count when it's called
 function save() {
-    let countSv = count + " - "
-    let saveEl = document.getElementById("save-el")
-    saveEl.textContent += countSv
-    document.getElementById("count-btn").innerText = 0
+    countTxt = count + " - ";
+    document.getElementById("btn btn-save").textContent += countTxt;
     count = 0
-
 }
