@@ -1,6 +1,6 @@
 body{
     
-   background-image: url(/src/passangers..png) 
+   background-image: url(/src/passengers..png) 
    
     
 }
@@ -8,7 +8,7 @@ body{
 
 #id-btn {
 
- background-color: #e3ff6778;
+ background-color: #2b3f004a;
  height: 250px;
  width: 300px;
  padding: 50px;
@@ -35,19 +35,19 @@ border-radius: 10px;
 
 
 .increment {
-    background-color: blue;
+    background-color: yellow;
 }
 
 .save {
-    background-color: green;
+    background-color: darkgreen;
 }
 
 .increment:hover{
-    background-color: darkblue;
+    background-color: yellowgreen;
 }
 
 .save:hover {
-    background-color: darkgreen;
+    background-color: green;
 }
 
 
